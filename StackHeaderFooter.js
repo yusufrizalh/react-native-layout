@@ -20,20 +20,20 @@ export default class StackHeaderFooter extends Component {
         return(
             <View style={styles.container}>
             <View style={[styles.header]}></View>
+            <View style={[styles.content]}>
             <ScrollView>
-                <View style={[styles.content]}>
-                    <View style={[styles.box]}></View>
-                    <View style={[styles.box]}></View>
-                    <View style={[styles.box]}></View>
-                    <View style={[styles.box]}></View>
-                    <View style={[styles.box]}></View>
-                    <View style={[styles.box]}></View>
-                    <View style={[styles.box]}></View>
-                    <View style={[styles.box]}></View>
-                    <View style={[styles.box]}></View>
-                    <View style={[styles.box]}></View>
-                </View>
+                <View style={[styles.box]}></View>
+                <View style={[styles.box]}></View>
+                <View style={[styles.box]}></View>
+                <View style={[styles.box]}></View>
+                <View style={[styles.box]}></View>
+                <View style={[styles.box]}></View>
+                <View style={[styles.box]}></View>
+                <View style={[styles.box]}></View>
+                <View style={[styles.box]}></View>
+                <View style={[styles.box]}></View>
             </ScrollView>
+            </View>
             <View style={[styles.footer]}></View>
             </View>
         );
@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#8BC34A',
   },
   box: {
-    width: 100,
+    width: 300,
     height: 100,
     backgroundColor: '#333',
     marginBottom: 10,
