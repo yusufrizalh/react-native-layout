@@ -10,5 +10,6 @@ import App from './App';
 import {name as appName} from './app.json';
 
 import StackHeaderFooter from './StackHeaderFooter'; 
+import EasyGrid from './EasyGrid';
 
-AppRegistry.registerComponent(appName, () => StackHeaderFooter);
+AppRegistry.registerComponent(appName, () => EasyGrid);
