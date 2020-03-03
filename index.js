@@ -11,5 +11,6 @@ import {name as appName} from './app.json';
 
 import StackHeaderFooter from './StackHeaderFooter'; 
 import EasyGrid from './EasyGrid';
+import FlatLists from './FlatLists';
 
-AppRegistry.registerComponent(appName, () => EasyGrid);
+AppRegistry.registerComponent(appName, () => FlatLists);
